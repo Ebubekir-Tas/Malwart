@@ -89,11 +89,25 @@ input{
 
   }
   
-  .top-left {
+  .top-left{
     position: absolute;
-    top: 15%;
+    top: 17.5%;
     left: 5%;
   }
+
+  #money{
+    font-size: 2vw;
+  }
+
+  #decorate{
+    font-size: 2vw;
+  }
+
+  @media (max-width: 992px) {
+    .top-left, .center-left {
+      position: relative;
+    }
+}
 
   .center-left {
     position: absolute;
