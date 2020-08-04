@@ -100,7 +100,7 @@ input{
   }
 
   #decorate{
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 
   @media (max-width: 992px) {
