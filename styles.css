@@ -105,7 +105,7 @@ input{
     padding: 5px 10px;
   }
 
-  .shop-bedroom, .shop-kitchen{
+  .shop-bedroom, .shop-kitchen, .items{
     text-align: center;
     font-family: "Montserrat";
     padding: 45px 0 45px 0;
@@ -136,3 +136,4 @@ input{
 .kitchens:hover{
     filter: opacity(50%);
   }
+
