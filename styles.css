@@ -1,0 +1,138 @@
+.body-wrapper{
+    
+    margin: auto;
+    width: 75%;
+    
+}
+
+
+.navbar-top, .navbar-bottom{
+    color: white;   
+    background-color: #041E42; 
+}
+
+#navbar-top-text a {
+    float: left;
+    color: #f2f2f2;
+
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
+
+  
+.logo{
+    height: 44px;
+    padding: 10px 0px;
+
+}
+
+.search-bar{
+
+    /*margin: 0px;
+    padding: 0px; */
+    color: #343A40;
+    padding-top: 5px;
+
+}
+
+input{
+    border: 1px solid #000;
+    height: 35px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 0px 20px;
+    color: black;
+}
+
+
+.header-links{
+ 
+    padding: 10px;
+    
+}
+
+#features {
+    position: relative;
+  }
+
+.person, .repeat, .shop{
+    float: left;
+}
+
+.shop{
+    font-family: Helvetica;
+    font-weight: 600;
+    padding: 2px 10px;
+}
+
+.topright{
+    float: right;
+}
+
+.walmart1{
+    border: 2px solid #6DB7FF;
+    border-radius: 15px;
+    width: 100%;
+    margin: 60px auto 0;
+
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    color: #0071DC;
+    text-shadow: 1px 1px #fff;
+    font-family: "Montserrat";
+
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+  }
+
+  .center-left {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    border: 1px solid #0071DC;
+    border-radius: 50px;
+    background-color: Transparent;
+    padding: 5px 10px;
+  }
+
+  .shop-bedroom, .shop-kitchen{
+    text-align: center;
+    font-family: "Montserrat";
+    padding: 45px 0 45px 0;
+    color: #343A40;
+  }
+
+  .bedrooms{
+    display: block;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+  }
+
+
+
+  .bedrooms:hover{
+    filter: opacity(50%);
+  }
+
+.kitchens{
+    display: block;
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.kitchens:hover{
+    filter: opacity(50%);
+  }
