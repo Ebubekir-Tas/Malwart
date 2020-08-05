@@ -240,3 +240,15 @@ ul li {
     margin: 65px 0 0 0;
   }
 }
+
+@media (max-width: 992px){
+  .center-left{
+    position: relative;
+  }
+}
+
+@media(max-width: 1021px){
+  .icons-bottoms{
+    float: left;
+  }
+}
