@@ -224,31 +224,38 @@ ul li {
 }
 
 @media (max-width: 992px) {
-  .top-left {
+  .top-left, .center-left {
     position: relative;
+  }
+}
+
+@media (max-width: 992px){
+  .top-left p{
+    font-size: 100px;
   }
 }
 
 @media (max-width: 573px) {
   #email-button {
-    margin: 0 15px;
+    margin: 0 30px;
   }
 }
 
 @media (max-width: 573px) {
   #email1 {
-    margin: 65px 0 0 15px;
+    margin: 65px 0 0 30px;
   }
 }
 
-@media (max-width: 992px){
-  .center-left{
-    position: relative;
+
+@media(max-width: 1021px){
+  .icons-bottoms{
+    float: left;
   }
 }
 
 @media(max-width: 1021px){
-  .icons-bottoms{
+  .icons-bottoms i{
     float: left;
   }
 }
