@@ -231,10 +231,18 @@ ul li {
 }
 
 @media (max-width: 992px){
-  .top-left p{
-    font-size: 100px;
+  #money{
+    font-size: 3.5vw;
   }
 }
+
+@media (max-width: 992px){
+  #decorate{
+    font-size: 3vw;
+  }
+}
+
+
 
 @media (max-width: 573px) {
   #email-button {
