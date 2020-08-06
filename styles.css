@@ -12,6 +12,7 @@
   filter: opacity(50%);
 }
 
+
 .block-bottom {
   display: block;
   margin-left: auto;
@@ -237,31 +238,27 @@ ul li {
 
 @media (max-width: 573px) {
   #email-button {
-    margin: 0 30px;
+    margin-top: 0;
   }
 }
 
 @media (max-width: 573px) {
   #email1 {
-    margin: 65px 0 0 30px;
+    margin: 60px auto auto 0;
   }
 }
 
 
-@media(max-width: 1021px){
+@media (max-width: 934px){
   .icons-bottoms{
-    float: left;
+    display: none;
   }
 }
 
-@media(max-width: 1021px){
-  .icons-bottoms i{
-    float: left;
-  }
-}
+
 
 @media (max-width: 573px){
   .block-bottom{
-    float: left;
+
   }
 }
