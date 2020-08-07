@@ -225,7 +225,7 @@ ul li {
   margin: 60px auto 0;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .top-left, .center-left {
     position: relative;
     top: 10px;
