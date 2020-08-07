@@ -265,6 +265,12 @@ ul li {
   }
 }
 
+@media (max-width: 750px){
+  .icons-bottom{
+    display: none;
+  }
+}
+
 
 @media (max-width: 1200px){
   .block-bottom1, .block-bottom2, .block-bottom3{
