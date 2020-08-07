@@ -4,15 +4,14 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Malwart</title>
+      <!--CSS, fonts, bootstrap-->
       <link rel="stylesheet" type="text/css" href="styles.css" />
       <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <!--fonts and favicons-->
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
       <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap" rel="stylesheet">
-	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
-	  <link rel="shortcut icon" href="https://www.walmart.com/apple-touch-icon.png" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
    </head>
    <body>
       <div class="navbar-top">
@@ -32,12 +31,12 @@
             </div>
             <div class="header-links col-lg-4">
                <div class="top-right">
-                  <div class="material-icons person"> person </div>
-                  <div class="shop-nav">Account</div>
-                  <div class="material-icons repeat"> repeat </div>
-                  <div class="shop-nav">Reorder</div>
-                  <div class="material-icons repeat"> shopping_cart </div>
-                  <div class="shop-nav">Checkout</div>
+                  <a href="#shop-bedroom" class="material-icons tr-icon"> single_bed </a>
+                  <a href="#shop-bedroom" class="shop-nav">Bedroom </a>
+                  <a href="#shop-kitchen" class="material-icons tr-icon"> kitchen </a>
+                  <a href="#shop-kitchen" class="shop-nav">Kitchen</a>
+                  <a href="#shop-item" class="material-icons tr-icon"> shopping_cart </a>
+                  <a href="#shop-item" class="shop-nav">Items</a>
                </div>
             </div>
          </div>
@@ -55,7 +54,7 @@
                <div class="item"> <img class="walmart1" src="images/walmart3.png" alt="Chicago" style="width:100%;"> </div>
             </div>
             <div class="top-left">
-               <h1 id="money">Shop Malwart. Live Better</h1>
+               <h1 id="slogan">Shop Malwart. Live Better</h1>
                <h1 id="decorate">Decorate your home</h1>
                <button class="center-left">
                   <p>Shop now</p>
@@ -64,37 +63,37 @@
          </div>
       </div>
       <div class="container">
-         <div class="shop-bedroom">
+         <div id="shop-bedroom">
             <h1>Bedroom makeover</h1>
          </div>
          <div>
-            <img class="bedrooms col-lg-3 col-md-4" src="images/redbed.png"></img>
-            <img class="bedrooms col-lg-3 col-md-4" src="images/yellowbed.png"></img>
-            <img class="bedrooms col-lg-3 col-md-4" src="images/bluebed.png"></img>
-            <img class="bedrooms col-lg-3 col-md-4" src="images/lavenderbed.png"></img>
+            <img class="bedrooms col-lg-3 col-md-4 a" src="images/redbed.png"></img>
+            <img class="bedrooms col-lg-3 col-md-4 b" src="images/yellowbed.png"></img>
+            <img class="bedrooms col-lg-3 col-md-4 a" src="images/bluebed.png"></img>
+            <img class="bedrooms col-lg-3 col-md-4 b" src="images/lavenderbed.png"></img>
             </a>
          </div>
       </div>
       <div class="container">
-         <div class="shop-kitchen">
+         <div id="shop-kitchen">
             <h1>Kitchen renovation</h1>
          </div>
          <div>
-            <img class="kitchens col-lg-3 col-md-4" src="images/redkitch.png"></img>
-            <img class="kitchens col-lg-3 col-md-4" src="images/yellowkitch.png"></img>
-            <img class="kitchens col-lg-3 col-md-4" src="images/bluekitch.png"></img>
-            <img class="kitchens col-lg-3 col-md-4" src="images/lavenderkitch.png"></img>
+            <img class="kitchens col-lg-3 col-md-4 a" src="images/redkitch.png"></img>
+            <img class="kitchens col-lg-3 col-md-4 b" src="images/yellowkitch.png"></img>
+            <img class="kitchens col-lg-3 col-md-4 a" src="images/bluekitch.png"></img>
+            <img class="kitchens col-lg-3 col-md-4 b" src="images/lavenderkitch.png"></img>
          </div>
       </div>
       <div class="container">
-         <div class="shop-items">
+         <div id="shop-item">
             <h1>Shop for Malwart items</h1>
          </div>
          <div>
-            <img class="items col-lg-3 col-md-4" src="images/reditem.png"></img>
-            <img class="items col-lg-3 col-md-4" src="images/yellowitem.png"></img>
-            <img class="items col-lg-3 col-md-4" src="images/blueitem.png"></img>
-            <img class="items col-lg-3 col-md-4" src="images/lavenderitem.png"></img>
+            <img class="items col-lg-3 col-md-4 a" src="images/reditem.png"></img>
+            <img class="items col-lg-3 col-md-4 b" src="images/yellowitem.png"></img>
+            <img class="items col-lg-3 col-md-4 a" src="images/blueitem.png"></img>
+            <img class="items col-lg-3 col-md-4 b" src="images/lavenderitem.png"></img>
          </div>
       </div>
       <div class="container email">
@@ -145,8 +144,8 @@
       <footer class="copyright">
          <p>© Copyright 2020 Malwart</p>
       </footer>
+      <!--JavaScript and jQuery-->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="index.js"></script>
    </body>

@@ -12,3 +12,4 @@ $(".mal-title3").click(function(){
     $(".block-bottom3").slideToggle("slow", function() {
         });
     });
+
