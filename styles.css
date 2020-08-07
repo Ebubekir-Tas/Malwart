@@ -137,7 +137,7 @@ li a {
 .mal-title1,
 .mal-title2,
 .mal-title3 {
-	font-weight: 600;
+	font-weight: bold;
 	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
