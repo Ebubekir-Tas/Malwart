@@ -10,54 +10,44 @@
 .kitchens:hover,
 .items:hover {
   filter: opacity(50%);
+  cursor: pointer;
 }
 
-
-.block-bottom {
-  display: block;
+.block-bottom1, 
+.block-bottom2, 
+.block-bottom3{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-.block {
-  display: inline-block;
-}
-
-.body-wrapper {
-  margin: auto;
-  width: 75%;
-}
-
-.carousel-control:hover {
-  opacity: 0;
-  color: #0071dc;
+  cursor: pointer;
+  display: none;
 }
 
 .center-left {
-  position: absolute;
-  left: 5%;
-  top: 50%;
+  position: relative;
   border: 1px solid #0071dc;
   border-radius: 50px;
   background-color: Transparent;
   padding: 5px 10px;
 }
 
-.clear {
-  clear: both;
+.center-left p{
+  margin: auto;
+  color: #0071dc;
 }
 
-/* Container holding the image and the text */
-.container {
-  position: relative;
-  color: #0071dc;
-  text-shadow: 1px 1px #fff;
-  font-family: "Montserrat";
+.copyright{
+  width: 50%;
+  margin: auto;
+  font-family: monospace;
 }
 
 #decorate {
   font-size: 1.5vw;
+  position: relative;
+  color: #0071dc;
+  text-shadow: 1px 1px #fff;
+  font-family: "Montserrat";
 }
 
 #email-button {
@@ -72,8 +62,8 @@
   margin: 65px auto;
 }
 
-#email1 {
-  width: 300px;
+#email-bar {
+  width: 30%;
   border-radius: 5px;
   float: left;
   margin: 65px auto;
@@ -83,26 +73,23 @@
   position: relative;
 }
 
-footer {
-  font-family: monospace;
-  margin: 20px auto;
-}
-
 .header-links {
   padding: 10px;
 }
 
 hr {
-  height: 1px;
-  width: 100%;
-  margin: 20px auto;
+  width: 75%;
+}
+
+.email{
+  position: relative;
 }
 
 .icons-bottom {
   float: right;
-  margin: 62px auto;
-  padding: 10px 30px;
-  font-size: 2rem;
+  padding: 0px 20px;
+  font-size: 1.5vw;
+  margin: 65px auto;
 }
 
 input {
@@ -120,12 +107,16 @@ input {
   height: 250px;
   width: 250px;
   margin: 0 auto;
+  border-radius: 50%;
 }
 
 li {
   width: 100%;
   text-align: left;
+  color: #343a40;
+  font-family: monospace;
 }
+
 
 li a {
   color: #343a40;
@@ -142,11 +133,16 @@ li a {
   font-size: 1.3rem;
   color: #343a40;
   text-align: center;
+  cursor: pointer;
 }
 
-.mal-title {
+.mal-title, .mal-title1, .mal-title2, .mal-title3{
   font-weight: 600;
   display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
 }
 
 #navbar-top-text a {
@@ -161,7 +157,13 @@ li a {
 
 #money {
   font-size: 2vw;
+  position: relative;
+  color: #0071dc;
+  text-shadow: 1px 1px #fff;
+  font-family: "Montserrat";
 }
+
+
 
 .navbar-top,
 .navbar-bottom {
@@ -205,12 +207,13 @@ li a {
 
 .top-left {
   position: absolute;
-  top: 17.5%;
-  left: 5%;
+  top: 60px;
+  left: 16px;
 }
 
-.topright {
+.top-right {
   float: right;
+  cursor: pointer;
 }
 
 ul li {
@@ -224,49 +227,75 @@ ul li {
   margin: 60px auto 0;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 970px) {
   .top-left, .center-left {
     position: relative;
+    top: 10px;
   }
 }
 
-@media (max-width: 992px){
+@media (max-width: 970px) {
+  .carousel-indicators{
+    display: none;
+  }
+}
+
+@media (max-width: 1200px){
   #money{
     font-size: 3.5vw;
   }
 }
 
-@media (max-width: 992px){
+@media (max-width: 1200px){
   #decorate{
     font-size: 3vw;
   }
 }
 
+@media (max-width: 1200px) {
+  .top-right {
+    float: left;
 
+  } 
+}
 
-@media (max-width: 573px) {
-  #email-button {
-    margin-top: 0;
+@media (max-width: 1200px){
+  .icons-bottom{
+    font-size: 3vw;
   }
 }
 
-@media (max-width: 573px) {
-  #email1 {
-    margin: 60px auto auto 0;
-  }
-}
 
-
-@media (max-width: 934px){
-  .icons-bottoms{
+@media (max-width: 1200px){
+  .block-bottom1, .block-bottom2, .block-bottom3{
     display: none;
+
+  }
+}
+
+@media (max-width: 1200px){
+  li{
+    text-align: center;
   }
 }
 
 
-
-@media (max-width: 573px){
-  .block-bottom{
-
+@media (max-width: 1200px){
+  .mal-title1, .mal-title2, .mal-title3{
+    text-align: center;
   }
 }
+
+@media(max-width: 1200px){
+  .lg-view{
+    display:none;
+ } 
+}
+
+@media(min-width: 1200px){
+  .sm-view {
+    display:none;
+ } 
+}
+
+
